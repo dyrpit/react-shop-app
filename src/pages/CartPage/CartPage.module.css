@@ -1,0 +1,131 @@
+.BackgroundWrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.CardWrapper {
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  padding: 25px;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  max-height: 600px;
+  overflow-x: auto;
+  transform: translate(-50%, -50%);
+}
+
+.ContentWrapper {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 15px;
+  margin-top: 20px;
+  box-shadow: -2px 24px 30px -9px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ContentWrapper:hover {
+  background-color: #eee;
+}
+
+.CloseButton {
+  cursor: pointer;
+  position: absolute;
+  padding: 2px 10px;
+  color: white;
+  top: 5%;
+  right: 5%;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #00a1b4;
+  border: 2px solid #00a1b4;
+  outline: none;
+  transition: 0.3s;
+}
+
+.CloseButton:hover,
+.CardButton:hover,
+.CardRemoveButton:hover {
+  background-color: white;
+  color: #00a1b4;
+}
+
+.CardButton {
+  padding: 5px;
+  background-color: #00a1b4;
+  border: 2px solid #00a1b4;
+  padding: 5px;
+  width: 40px;
+  height: 30px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.CardButton:disabled {
+  background-color: #7eb2b8;
+  border: 2px solid #7eb2b8;
+  color: white;
+  cursor: not-allowed;
+}
+
+.CardRemoveButton {
+  padding: 5px;
+  background-color: #00a1b4;
+  border: 2px solid #00a1b4;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 180px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.CardAddButton {
+  padding: 5px;
+  background-color: #00a1b4;
+  border: 2px solid #00a1b4;
+  font-size: 40px;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 180px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.CardText {
+  padding: 5px;
+}
+
+.CardName {
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.CardImage {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
