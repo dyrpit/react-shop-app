@@ -1,3 +1,8 @@
+# React Shop App
+
+Application is a simple redux shop where user can add items to cart, remove them or change the quantity of product in cart. Total items number, price for each of them and total price is updated immediately.
+Cart and product state is managed by redux. React redux hooks _useSelector_ and _useDispatch_ was used in app. Cart page is a modal, and by click on product image user is moved to the details page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
