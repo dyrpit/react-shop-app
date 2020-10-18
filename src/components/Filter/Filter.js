@@ -4,7 +4,7 @@ import style from './Filter.module.css';
 const Filter = ({ manufacturers, filterValues: { text, manufacture }, onChange }) => {
   const handleChange = (value) => {
     onChange({
-      text: value.text || text,
+      text: value.text || '',
       manufacture: value.manufacture || manufacture,
     });
   };

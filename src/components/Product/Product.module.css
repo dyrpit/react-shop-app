@@ -11,7 +11,6 @@
 .Image {
   display: block;
   width: 80%;
-  height: auto;
   margin: 0 auto;
   transition: 0.3s;
 }

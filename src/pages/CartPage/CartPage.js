@@ -20,9 +20,9 @@ const CartPage = ({ setIsOn }) => {
   return createPortal(
     <div className={styles.BackgroundWrapper}>
       <div className={styles.CardWrapper}>
-        <a onClick={() => setIsOn(false)} className={styles.CloseButton}>
+        <div onClick={() => setIsOn(false)} className={styles.CloseButton}>
           X
-        </a>
+        </div>
         <h1>Items count: {cart.items.length}</h1>
         {cart.items.map((item, index) => (
           <div key={index} className={styles.ContentWrapper}>
